@@ -27,7 +27,7 @@
                      <ul class="list-group list-group-flush">
                         <li class="list-group-item d-flex justify-content-between">
                            <span>ciao</span>
-                           <i class="fa-regular fa-trash-can p-1"></i>
+                           <a class="text-danger" href=""><i class="fa-regular fa-trash-can p-1"></i></a>
                         </li>
                      </ul>
                   </div>
