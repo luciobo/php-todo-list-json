@@ -25,9 +25,9 @@
                <div class="col-5">
                   <div class="card">
                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item d-flex justify-content-between">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
                            <span>ciao</span>
-                           <a class="text-danger" href=""><i class="fa-regular fa-trash-can p-1"></i></a>
+                           <button class="btn text-danger"><i class="fa-regular fa-trash-can"></i></button>
                         </li>
                      </ul>
                   </div>
