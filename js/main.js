@@ -1,8 +1,14 @@
-createApp({
+const { createApp } = Vue;
+
+
+const app = createApp({
     // data: function () {}
     data() {
         // la funzione data deve SEMPRE ritornare un oggetto
-        return {};
+        return {
+            contenitoreTodo:[],
+            contenitoreTask:{},
+        };
     },
     methods: {
 

@@ -32,10 +32,10 @@
                      </ul>
                   </div>
                   <div class="py-3">
-                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Aggiungi un ToDo" aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <button class="btn btn-outline-warning" type="button" id="button-addon2">Aggiungi</button>
-                     </div>
+                     <form class="input-group mb-3" method="POST">
+                        <input v-model="contenitoreTask" type="text" class="form-control" placeholder="Aggiungi un ToDo" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-success" type="button" id="button-addon2">Aggiungi</button>
+                     </form>
                   </div>
                </div>
             </div>
