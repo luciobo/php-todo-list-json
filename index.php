@@ -19,10 +19,15 @@
 
     <div id="app">
         <div class="bg-dark vh-100">
-            <div class="container text-light">
-                <h1 class="text-center pt-5">ToDo List</h1>
-                <div class="row">
-                    
+            <div class="container">
+                <h1 class="text-center py-5 text-light">ToDo List</h1>
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <div class=" card">
+                            
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
